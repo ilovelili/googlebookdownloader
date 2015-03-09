@@ -1,6 +1,7 @@
 {
     "name": "google-books-downloader",
     "description": "google books downloader",
+    "repository": "https://github.com/ilovelili/googlebookdownloader.git",
     "version": "0.0.1",
     "private": false,
     "dependencies": {
