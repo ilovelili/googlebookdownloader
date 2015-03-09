@@ -1,0 +1,154 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json google-books-downloader@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/ubuntu/workspace', [ 'phantomjs', 'casperjs' ] ]
+7 info preinstall google-books-downloader@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'phantomjs@2.0.0', null ]
+10 verbose cache add name=undefined spec="phantomjs@2.0.0" args=["phantomjs@2.0.0",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'phantomjs@2.0.0',
+11 verbose parsed url   path: 'phantomjs@2.0.0',
+11 verbose parsed url   href: 'phantomjs@2.0.0' }
+12 verbose cache add [ 'casperjs@*', null ]
+13 verbose cache add name=undefined spec="casperjs@*" args=["casperjs@*",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'casperjs@*',
+14 verbose parsed url   path: 'casperjs@*',
+14 verbose parsed url   href: 'casperjs@*' }
+15 verbose cache add name="phantomjs" spec="2.0.0" args=["phantomjs","2.0.0"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '2.0.0',
+16 verbose parsed url   path: '2.0.0',
+16 verbose parsed url   href: '2.0.0' }
+17 verbose addNamed [ 'phantomjs', '2.0.0' ]
+18 verbose addNamed [ '2.0.0', '2.0.0' ]
+19 verbose cache add name="casperjs" spec="*" args=["casperjs","*"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '*',
+20 verbose parsed url   path: '*',
+20 verbose parsed url   href: '*' }
+21 verbose addNamed [ 'casperjs', '*' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 169b4d87-phantomjs-2-0-0 phantomjs@2.0.0
+24 verbose lock phantomjs@2.0.0 /home/ubuntu/.npm/169b4d87-phantomjs-2-0-0.lock
+25 silly lockFile 695fe277-casperjs casperjs@*
+26 verbose lock casperjs@* /home/ubuntu/.npm/695fe277-casperjs.lock
+27 silly addNameRange { name: 'casperjs', range: '*', hasData: false }
+28 verbose request where is /phantomjs
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 3f930ad7fa190c7e
+31 verbose url raw /phantomjs
+32 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+33 verbose url resolved https://registry.npmjs.org/phantomjs
+34 verbose request where is https://registry.npmjs.org/phantomjs
+35 info trying registry request attempt 1 at 14:15:28
+36 verbose etag "7IAFVI9MF16FV47YY70N4FM73"
+37 http GET https://registry.npmjs.org/phantomjs
+38 verbose request where is /casperjs
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /casperjs
+41 verbose url resolving [ 'https://registry.npmjs.org/', './casperjs' ]
+42 verbose url resolved https://registry.npmjs.org/casperjs
+43 verbose request where is https://registry.npmjs.org/casperjs
+44 info trying registry request attempt 1 at 14:15:28
+45 verbose etag "CXPA0PR4DE1NYG70M1YKN4ELA"
+46 http GET https://registry.npmjs.org/casperjs
+47 http 304 https://registry.npmjs.org/phantomjs
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Mon, 09 Mar 2015 14:15:28 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Mon, 09 Mar 2015 14:15:28 GMT',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"7IAFVI9MF16FV47YY70N4FM73"',
+48 silly registry.get     age: '15',
+48 silly registry.get     'x-served-by': 'cache-hkg6823-HKG',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '1',
+48 silly registry.get     'x-timer': 'S1425910528.207401,VS0,VE0',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag https://registry.npmjs.org/phantomjs from cache
+50 silly lockFile 169b4d87-phantomjs-2-0-0 phantomjs@2.0.0
+51 silly lockFile 169b4d87-phantomjs-2-0-0 phantomjs@2.0.0
+52 http 304 https://registry.npmjs.org/casperjs
+53 silly registry.get cb [ 304,
+53 silly registry.get   { date: 'Mon, 09 Mar 2015 14:15:28 GMT',
+53 silly registry.get     server: 'Apache',
+53 silly registry.get     via: '1.1 varnish',
+53 silly registry.get     'last-modified': 'Mon, 09 Mar 2015 14:15:28 GMT',
+53 silly registry.get     'cache-control': 'max-age=60',
+53 silly registry.get     etag: '"CXPA0PR4DE1NYG70M1YKN4ELA"',
+53 silly registry.get     age: '0',
+53 silly registry.get     'x-served-by': 'cache-hkg6824-HKG',
+53 silly registry.get     'x-cache': 'MISS',
+53 silly registry.get     'x-cache-hits': '0',
+53 silly registry.get     'x-timer': 'S1425910528.309237,VS0,VE248',
+53 silly registry.get     vary: 'Accept',
+53 silly registry.get     'content-length': '0',
+53 silly registry.get     'keep-alive': 'timeout=10, max=50',
+53 silly registry.get     connection: 'Keep-Alive' } ]
+54 verbose etag https://registry.npmjs.org/casperjs from cache
+55 silly addNameRange number 2 { name: 'casperjs', range: '*', hasData: true }
+56 silly addNameRange versions [ 'casperjs', [ '1.1.0-beta2', '1.1.0-beta3' ] ]
+57 verbose addNamed [ 'casperjs', '1.1.0-beta3' ]
+58 verbose addNamed [ '1.1.0-beta3', '1.1.0-beta3' ]
+59 silly lockFile 679a3ce2-casperjs-1-1-0-beta3 casperjs@1.1.0-beta3
+60 verbose lock casperjs@1.1.0-beta3 /home/ubuntu/.npm/679a3ce2-casperjs-1-1-0-beta3.lock
+61 silly lockFile 679a3ce2-casperjs-1-1-0-beta3 casperjs@1.1.0-beta3
+62 silly lockFile 679a3ce2-casperjs-1-1-0-beta3 casperjs@1.1.0-beta3
+63 silly lockFile 695fe277-casperjs casperjs@*
+64 silly lockFile 695fe277-casperjs casperjs@*
+65 error Error: version not found: phantomjs@2.0.0
+65 error     at /home/ubuntu/.nvm/v0.10.35/lib/node_modules/npm/lib/cache/add-named.js:125:12
+65 error     at saved (/home/ubuntu/.nvm/v0.10.35/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+65 error     at Object.oncomplete (fs.js:108:15)
+66 error If you need help, you may report this *entire* log,
+66 error including the npm and node versions, at:
+66 error     <http://github.com/npm/npm/issues>
+67 error System Linux 3.14.13-c9
+68 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install"
+69 error cwd /home/ubuntu/workspace
+70 error node -v v0.10.35
+71 error npm -v 1.4.28
+72 verbose exit [ 1, true ]

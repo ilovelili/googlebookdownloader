@@ -1,0 +1,10 @@
+{
+    "name": "google-books-downloader",
+    "description": "google books downloader",
+    "version": "0.0.1",
+    "private": false,
+    "dependencies": {
+        "phantomjs": "1.9.16",
+        "casperjs": "*"
+    }
+}
